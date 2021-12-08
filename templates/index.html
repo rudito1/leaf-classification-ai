@@ -37,7 +37,7 @@
                 {% if uploaded_image %}
                 <img
                     src="{{ url_for('send_uploaded_image', filename=uploaded_image) }}"
-                    class="mt-8 mb-4 h-48 border-8 border-yellow-200 rounded-md"
+                    class="mt-8 mb-4 h-48 border-8 border-red-200 rounded-md"
                 />
                 {% else %}
                 <div
@@ -48,7 +48,7 @@
                         my-8
                         w-48
                         h-48
-                        border-8 border-yellow-200
+                        border-8 border-red-200
                         rounded-md
                     "
                 >
@@ -71,7 +71,7 @@
                         class="
                             mb-4
                             p-4
-                            border-8 border-yellow-200
+                            border-8 border-red-200
                             rounded-md
                             bg-gray-100
                         "
